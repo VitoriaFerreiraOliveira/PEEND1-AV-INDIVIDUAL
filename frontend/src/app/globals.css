@@ -29,6 +29,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f0f2f5 !important;
+  color: #212529 !important;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 * {
@@ -46,4 +51,7 @@ a {
   html {
     color-scheme: dark;
   }
+}
+main {
+  flex: 1;
 }
