@@ -146,7 +146,7 @@ export default function Home() {
                     <tr>
                       <th className="ps-3">Título</th>
                       <th>Cargo</th>
-                      <th>Carga</th>
+                      <th>Carga Horária</th>
                       <th className="text-end pe-3">Ações</th>
                     </tr>
                   </thead>

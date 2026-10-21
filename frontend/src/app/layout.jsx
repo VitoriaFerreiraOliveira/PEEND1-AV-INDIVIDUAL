@@ -29,8 +29,8 @@ export default function RootLayout({ children }) {
 
         <main>{children}</main>
 
-        <footer className="bg-white border-top py-3 mt-auto">
-          <div className="container text-center text-muted small">
+        <footer className="bg-dark text-white border-top border-secondary py-3 mt-auto">
+          <div className="container text-center small">
             <p className="mb-0">
               © {new Date().getFullYear()} Sistema de Treinamentos Corporativos 
             </p>
